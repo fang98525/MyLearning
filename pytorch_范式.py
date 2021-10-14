@@ -162,4 +162,4 @@ model_clone.load_state_dict(torch.load("./data/model_parameter.pkl"))
 model_clone.compile(loss_func = nn.BCELoss(),optimizer=
 torch.optim.Adagrad(model.parameters(),lr = 0.02),metrics_dict={"accuracy":accuracy})
 
-#dl也是用ai 思维解决实际问题的一种思路
+#dl也是用ai 思维解决实际问题的一种思路的工具
