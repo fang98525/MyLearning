@@ -1,3 +1,6 @@
+"""
+dense 神经网络 
+"""
 ##准备数据
 import  numpy  as np
 import pandas as pd
